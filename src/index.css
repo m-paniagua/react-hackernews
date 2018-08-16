@@ -1,0 +1,46 @@
+body {
+  color: #20C20E;
+  background: #111;
+  font: 400 16px 'VT323', monospace;
+}
+
+a {
+  color: #20C20E;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  font-family: 'VT323', monospace;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #808080;
+  cursor: pointer;
+  font-family: 'VT323', monospace;
+}
+
+button:hover {
+  /* color: #eee; */
+  background-color: #20C20E;
+}
+
+*:focus {
+  outline: none;
+}
